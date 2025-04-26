@@ -10,7 +10,9 @@ redirect_from:
 
 ## Who am I?
 
-Hello, my name is Ali Keramati, and I am a Ph.D. student specializing in Teaching, Learning, and Educational Improvement at the [UCI School of Education](https://education.uci.edu/). I previously earned a B.Sc. in Computer Engineering with a minor in Educational Sciences from the University of Tehran. I proudly served as an undergraduate research assistant at several research labs, including the Cognitive Systems Lab, Technology Enhanced Learning Lab (TELAB), UT NLP Group, National Brain Centre, the University of Queensland (remotely), and the Embodied Design Research Lab at UC Berkeley (remotely).
+Hello, my name is Ali Keramati, and I am a Ph.D. student specializing in Teaching, Learning, and Educational Improvement at the [UCI School of Education](https://education.uci.edu/). I obtained my bachelor’s degrees in Computer Engineering from Univerisity of Tehran in 2024. 
+
+<!-- I previously earned a B.Sc. in Computer Engineering with a minor in Educational Sciences from the University of Tehran. I proudly served as an undergraduate research assistant at several research labs, including the Cognitive Systems Lab, Technology Enhanced Learning Lab (TELAB), UT NLP Group, National Brain Centre, the University of Queensland (remotely), and the Embodied Design Research Lab at UC Berkeley (remotely). -->
 
 <!-- Through my experiences as a student, teacher, and teaching assistant in academia, I noticed several challenges faced by both students and teachers that technology could address. These experiences shaped my long-term goal: **to use technology, particularly Artificial Intelligence (AI), to make substantial improvements in learning, teaching, and assessment.** -->
 
