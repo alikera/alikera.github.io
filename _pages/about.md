@@ -29,6 +29,4 @@ Additionally, I am interested in exploring philosophical and psychological quest
 
 ## Other Interests
 
-In addition to my passion for technology, I have a deep love for the arts. From painting and music to movies and theater, I find inspiration in various creative forms. Movies and series captivate me, painting is my outlet for creativity, and music fuels my focus. Last summer, I delved into the world of acting and film direction in a school theater named [Tazeh Theater](https://www.instagram.com/tazeh_theater/?hl=en), enhancing my understanding of cinematic storytelling.
-
-As a former and retired soccer player for [Esteghlal F.C. U17](https://www.transfermarkt.com/esteghlal-fc-u17/startseite/verein/88915), I continue my passion for the sport and occasionally join friends on the field.
+In addition to my passion for technology, I have a deep love for the arts. From painting and music to movies and theater, I find inspiration in various creative forms. Movies and series captivate me, painting is my outlet for creativity, and music fuels my focus. Last summer, I delved into the world of acting and film direction in a school theater named [Tazeh Theater](https://www.instagram.com/tazeh_theater/?hl=en), enhancing my understanding of cinematic storytelling. As a former and retired soccer player for [Esteghlal F.C. U17](https://www.transfermarkt.com/esteghlal-fc-u17/startseite/verein/88915), I continue my passion for the sport and occasionally join friends on the field.
