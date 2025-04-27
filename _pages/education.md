@@ -18,5 +18,6 @@ redirect_from:
   * To download my official Minor degree click [here](/files/Ed-Degree-Minor.pdf)
   * To download my transcript in Educational Science (Minor), click [Official Persian](/files/Ed-Transcripts-OfficialPersian.pdf) or [Translated English](/files/Ed-Transcript-English.pdf)
 * Diploma in Mathematics and Physics, Allame Helli 4 Highschool
-
+  * To download my official Diploma degree click [here](/files/Diploma-Degree.pdf)
+  
 <!-- You can read more about my education in my CV. You can download my CV by clicking [here](/files/cv.pdf) -->
