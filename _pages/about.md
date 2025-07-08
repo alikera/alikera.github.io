@@ -10,7 +10,7 @@ redirect_from:
 
 ## Who am I?
 
-Hello, my name is Ali Keramati, and I am a Ph.D. student in Educational Data Science. I obtained my bachelor’s degree in Computer Engineering from the University of Tehran in 2024. 
+Hello, my name is Ali Keramati, and I am a Ph.D. student in **Educational Data Science** at University of California, Irvine. I obtained my bachelor’s degree in Computer Engineering with a minor in Educational Sciences from the University of Tehran in 2024. 
 
 <!-- I previously earned a B.Sc. in Computer Engineering with a minor in Educational Sciences from the University of Tehran. I proudly served as an undergraduate research assistant at several research labs, including the Cognitive Systems Lab, Technology Enhanced Learning Lab (TELAB), UT NLP Group, National Brain Centre, the University of Queensland (remotely), and the Embodied Design Research Lab at UC Berkeley (remotely). -->
 
@@ -21,9 +21,9 @@ Hello, my name is Ali Keramati, and I am a Ph.D. student in Educational Data Sci
 
 <!-- My research explores the intersection of artificial intelligence, cognition, and education. I am deeply interested in the **cognitive evaluation** of large language models (LLMs), focusing on assessing their interpretability, reasoning abilities, learning processes, and educational impact. Additionally, I design **multi-agent** LLM systems to support cognitive and educational tasks, aiming to create adaptive and personalized learning environments. Through this interdisciplinary lens, I aim to develop LLM-driven tools that enhance learning experiences while fostering more effective human-AI collaboration in education. -->
 
-My research bridges artificial intelligence, cognitive science, and education, with a focus on developing human-centered AI systems. I investigate the cognitive capabilities of large language models (LLMs), examining their interpretability, reasoning dynamics, and learning processes to design systems that have meaningful educational impact.
+My research bridges artificial intelligence, cognitive science, and education, with a focus on developing **human-centered AI systems**. I investigate the cognitive capabilities of large language models (LLMs), examining their interpretability, reasoning dynamics, and learning processes to design systems that have meaningful educational impact.
 
-I explore machine learning and natural language processing methods to enhance student learning experiences and support more effective teaching practices. Specifically, I investigate the application of LLMs in combination with optimization techniques such as Retrieval-Augmented Generation (RAG), fine-tuning, and Reinforcement Learning from Human Feedback (RLHF). I am mainly utilizing LLMs and optimizing them within a multi-agent framework to create systems aimed at delivering personalized learning experiences.
+I explore machine learning and natural language processing methods to enhance student learning experiences and support more effective teaching practices. Specifically, I investigate the application of LLMs in combination with optimization techniques such as Retrieval-Augmented Generation **(RAG)**, **fine-tuning**, and Reinforcement Learning from Human Feedback **(RLHF)**. I am mainly utilizing LLMs and optimizing them within a **multi-agent** framework to create systems aimed at delivering personalized learning experiences.
 
 By integrating learning analytics, human–AI interaction, and computational models of human cognition, I aim to advance both the scientific understanding of cognition in LLMs and the practical design of next-generation learning technologies.
 
