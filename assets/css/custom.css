@@ -1,0 +1,53 @@
+/* Research cards */
+.research-list {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .research-card {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--mm-border, #e5e7eb);
+    border-radius: 12px;
+    background: var(--mm-surface, #fff);
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+  }
+  
+  .research-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.06); }
+  
+  .research-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    background: #f6f7f9;
+  }
+  
+  .research-card h3 {
+    margin: 0 0 .4rem 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+  
+  .research-meta {
+    font-size: .9rem;
+    color: #6b7280;
+    margin-bottom: .4rem;
+  }
+  
+  .research-actions a {
+    font-size: .9rem;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .research-actions a:hover { border-color: currentColor; }
+  
+  /* Mobile */
+  @media (max-width: 640px) {
+    .research-card { flex-direction: column; }
+    .research-card img { width: 100%; height: 180px; }
+  }
+  
