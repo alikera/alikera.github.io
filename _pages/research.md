@@ -12,7 +12,7 @@ redirect_from:
 <div class="research-list">
 
   <article class="research-card">
-    <img src="{{ '/assets/images/research/iTag.jpg' | relative_url }}" alt="iTAG project thumbnail">
+    <img src="{{ '/images/iTag.jpg' | relative_url }}" alt="iTAG project thumbnail">
     <div>
       <h3>
         <a href="https://ieeexplore.ieee.org/abstract/document/10967458" target="_blank" rel="noopener">
