@@ -9,9 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-* Keramati, A. and Warschauer, M. (2025). **"From General to Specific: Enhancing Automated Essay Scoring through Sequential Fine-Tuning"**, (In Preparation)
-
-
 * [Shahhoseini, N., Taghiyareh F., and Keramati, A. (2025). **"iTAG: Easy, Rapid, Automatic Intelligent Tagging for Educational Contents"**, 2025 29th International Computer Conference, Computer Society of Iran (CSICC)](https://ieeexplore.ieee.org/abstract/document/10967458)
 
 
