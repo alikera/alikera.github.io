@@ -1,14 +1,14 @@
-/* Research cards: fixed left thumbnail + right text */
+/* Research cards: grid with fixed thumbnail left */
 .research-list {
     display: grid;
     gap: 1rem;
   }
   
-  /* Use CSS var to tweak the image size in one place */
+  /* Adjust this once; everything else follows */
   .research-card {
-    --thumb: 140px;            /* << change to 120/160 if you want */
+    --thumb: 140px;                      /* change to 120/160 as you like */
     display: grid;
-    grid-template-columns: var(--thumb) 1fr; /* image left, text right */
+    grid-template-columns: var(--thumb) 1fr;
     gap: 1rem;
     padding: 1rem;
     border: 1px solid #e5e7eb;
@@ -18,46 +18,40 @@
     align-items: start;
   }
   
-  .research-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,.06); }
-  
-  .research-card img {
-    width: var(--thumb);
-    height: var(--thumb);
-    object-fit: cover;         /* crops nicely to a square */
+  /* beat Minimal Mistakes' global img rules */
+  .research-card img,
+  .research-card a img,
+  .research-card figure > img {
+    width: var(--thumb) !important;
+    height: var(--thumb) !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover;
     border-radius: 8px;
     display: block;
     flex-shrink: 0;
+    margin: 0; /* neutralize figure/img margins */
   }
   
+  /* neutralize the theme's auto-figure wrapping inside .page__content */
+  .research-card figure {
+    margin: 0 !important;
+  }
+  
+  /* text side */
   .research-card h3 {
     margin: 0 0 .35rem 0;
     font-size: 1.05rem;
     line-height: 1.3;
   }
-  
   .research-meta {
     font-size: .9rem;
     color: #6b7280;
     margin: 0 0 .4rem 0;
   }
-  
   .research-card p { margin: 0 0 .6rem 0; }
   
-  .research-actions a {
-    font-size: .9rem;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-  .research-actions a:hover { border-color: currentColor; }
-  
-  /* Mobile: stack, keep image at same fixed size or shrink a bit */
   @media (max-width: 640px) {
-    .research-card {
-      grid-template-columns: var(--thumb) 1fr;
-      --thumb: 110px;          /* slightly smaller on phones */
-    }
+    .research-card { --thumb: 110px; grid-template-columns: var(--thumb) 1fr; }
   }
-  
-  /* If some global img styles force width:100%, neutralize inside the card */
-  .research-card img { max-width: none; }
   
