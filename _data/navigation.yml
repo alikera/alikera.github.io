@@ -3,11 +3,12 @@ main:
   - title: "About Me"
     url: /
 
+  - title: "Selected Research"
+    url: /research/   
+
   - title: "Education"
     url: /education/    
-
-  - title: "Research"
-    url: /research/    
+ 
     
   - title: "CV"
     url: /cv/
