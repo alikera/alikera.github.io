@@ -16,7 +16,7 @@ redirect_from:
     <div>
       <h3>
         <a href="https://ieeexplore.ieee.org/abstract/document/10967458" target="_blank" rel="noopener">
-          iTAG: Easy, Rapid, Automatic Intelligent Tagging for Educational Contents (CSICC 2025)
+          iTAG: Easy, Automatic Intelligent Tagging for Educational Contents (CSICC 2025)
         </a>
       </h3>
       <div class="research-meta">Shahhoseini, N.; Taghiyareh, F.; Keramati, A. • 2025</div>
