@@ -1,0 +1,16 @@
+<article class="research-card">
+    <img src="{{ include.img | relative_url }}" alt="{{ include.alt | default: 'Research thumbnail' }}">
+    <div>
+      <h3>
+        {% if include.url %}
+          <a href="{{ include.url }}" target="_blank" rel="noopener">{{ include.title }}</a>
+        {% else %}
+          {{ include.title }}
+        {% endif %}
+      </h3>
+      {% if include.meta %}<div class="research-meta">{{ include.meta }}</div>{% endif %}
+      <p>{{ include.description }}</p>
+      {% if include.url and include.cta %}<div class="research-actions"><a href="{{ include.url }}" target="_blank" rel="noopener">{{ include.cta }}</a></div>{% endif %}
+    </div>
+  </article>
+  
