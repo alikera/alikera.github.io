@@ -14,7 +14,7 @@ redirect_from:
 <article class="research-card">
     <div>
       <h3>
-        <a href="https://openreview.net/forum?id=0FOOrwSQ9E" target="_blank" rel="noopener">
+        <a href="https://openreview.net/forum?id=0FOOrwSQ9E " target="_blank" rel="noopener">
           ICLR 2026: The First Tokens Matter: Early Confidence Signals for Evaluating LLM Reasoning (under review)
         </a>
       </h3>
@@ -62,15 +62,15 @@ redirect_from:
   <article class="research-card">
     <div>
       <h3>
-        <a href="YOUR_LINK_HERE" target="_blank" rel="noopener">
-          NeurIPS 2025: Application of Multi-Agent Systems for Essay Scoring
+        <a href="https://openreview.net/forum?id=Y9c3ETKw50&referrer=%5Bthe%20profile%20of%20Ali%20Keramati%5D(%2Fprofile%3Fid%3D~Ali_Keramati1)" target="_blank" rel="noopener">
+          NeurIPS 2025: Application of Multi-Agent Systems for Essay Scoring (Oral)
         </a>
       </h3>
       <p>
         Introduces multi-agent system architectures for essay scoring, comparing approaches such as supervisor, collaboration, and debate. The work highlights how multi-agent debate can improve scoring reliability and move automated essay evaluation closer to human-level agreement while making advanced AI concepts more accessible for educators and assessment professionals.
       </p>
       <div class="research-actions">
-        <a href="YOUR_LINK_HERE" target="_blank" rel="noopener">Project link →</a>
+        <a href="https://neurips.cc/virtual/2025/loc/san-diego/131560" target="_blank" rel="noopener">NeurIPS Oral Presentation →</a>
       </div>
     </div>
   </article>
