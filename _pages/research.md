@@ -30,15 +30,47 @@ redirect_from:
   <article class="research-card">
     <div>
       <h3>
-        <a href="https://openreview.net/forum?id=yfe123cdru" target="_blank" rel="noopener">
-          ACL 2026: From Advocacy to Judgment: Training-Free Analytic Essay Scoring with Multi-Agent Debate and Exemplar Retrieval
+        <a href="https://arxiv.org/abs/2606.06754" target="_blank" rel="noopener">
+          ACL 2026: MADRAG: Multi-Agent Debate with Retrieval-Augmented Generation for Training-Free Analytic Essay Scoring
         </a>
       </h3>
       <p>
         Presents MADRAG, a training-free analytic essay scoring framework that combines multi-agent debate with retrieval-augmented exemplar grounding. The system improves calibration, reduces middle-score bias, and achieves strong trait-level scoring performance that is competitive with supervised essay scoring approaches.
       </p>
       <div class="research-actions">
-        <a href="https://openreview.net/forum?id=yfe123cdru" target="_blank" rel="noopener">Paper link →</a>
+        <a href="https://arxiv.org/abs/2606.06754" target="_blank" rel="noopener">Paper link →</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="research-card">
+    <div>
+      <h3>
+        <a href="https://arxiv.org/abs/2606.10296" target="_blank" rel="noopener">
+          ACL 2026: The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge
+        </a>
+      </h3>
+      <p>
+        Diagnoses failure modes in multi-agent debate systems by combining token-level log-probability signals with LLM-as-judge evaluation. The work shows how confidence calibration can surface cases where agents are confidently wrong, improving the reliability of multi-agent reasoning for evaluation tasks.
+      </p>
+      <div class="research-actions">
+        <a href="https://arxiv.org/abs/2606.10296" target="_blank" rel="noopener">Paper link →</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="research-card">
+    <div>
+      <h3>
+        <a href="https://arxiv.org/abs/2606.14113" target="_blank" rel="noopener">
+          EDM 2026: Simulating Students' Java Programming Errors with Large Language Models
+        </a>
+      </h3>
+      <p>
+        Investigates whether large language models can realistically simulate the programming errors that students make when learning Java. By generating authentic error patterns, the work supports the development of educational tools, automated tutoring, and large-scale evaluation of programming-education interventions.
+      </p>
+      <div class="research-actions">
+        <a href="https://arxiv.org/abs/2606.14113" target="_blank" rel="noopener">Paper link →</a>
       </div>
     </div>
   </article>
@@ -47,7 +79,7 @@ redirect_from:
     <div>
       <h3>
         <a href="https://arxiv.org/html/2601.12618v1" target="_blank" rel="noopener">
-          LAK 2026: Disagreement as Data: Reasoning Trace Analytics in Multi-Agent Systems (LAK 2026)
+          LAK 2026: Disagreement as Data: Reasoning Trace Analytics in Multi-Agent Systems
         </a>
       </h3>
       <p>
@@ -55,6 +87,22 @@ redirect_from:
       </p>
       <div class="research-actions">
         <a href="https://arxiv.org/html/2601.12618v1" target="_blank" rel="noopener">Paper link →</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="research-card">
+    <div>
+      <h3>
+        <a href="https://2026.isls.org/proceedings/" target="_blank" rel="noopener">
+          CSCL 2026: Mapping Instructors' Attitudes Towards Cheating with AI: An Exploratory Analysis Using Forum Analysis
+        </a>
+      </h3>
+      <p>
+        Explores how instructors perceive and respond to AI-assisted cheating through an exploratory analysis of online forum discussions. The work surfaces the range of attitudes, concerns, and proposed responses among educators as generative AI becomes widespread in academic settings.
+      </p>
+      <div class="research-actions">
+        <a href="https://2026.isls.org/proceedings/" target="_blank" rel="noopener">Proceedings →</a>
       </div>
     </div>
   </article>
