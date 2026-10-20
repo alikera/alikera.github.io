@@ -1,5 +1,32 @@
-# Optional link and color for each publication badge, keyed by the `abbr` field in papers.bib. For example:
-#
-# "LAK":
-#   url: https://www.solaresearch.org/events/lak/
-#   color: "#00369f"
+# Publication badges link to these venue pages (keyed by the `abbr` field in papers.bib).
+# Give every entry a `url`; a `color` without a `url` makes the badge text unreadable in light mode.
+"ACL SRW":
+  url: https://acl2026-srw.github.io/
+"NLP4DH":
+  url: https://www.nlp4dh.com/nlp4dh-2026
+"GEM":
+  url: https://gem-workshop.com/
+"EDM":
+  url: https://educationaldatamining.org/edm2026/
+"CSCL":
+  url: https://2026.isls.org/
+"ICLS":
+  url: https://2026.isls.org/
+"ICLR-W":
+  url: https://sites.google.com/view/iclr-2026-llmreasoning
+"LAK":
+  url: https://www.solaresearch.org/events/lak/lak26/
+"NeurIPS":
+  url: https://neurips.cc/Conferences/2025
+"CSICC":
+  url: https://csi.org.ir/en/conference/csicc-2024/
+"ICCKE":
+  url: https://iccke.um.ac.ir/2024/en
+"Refl. Pract.":
+  url: https://www.tandfonline.com/journals/crep20
+"IJEYE":
+  url: https://www.tandfonline.com/journals/ciey20
+"IJCE":
+  url: https://journal.cesir.ir/?lang=en
+"Springer":
+  url: https://link.springer.com/book/10.1007/978-981-95-5997-8

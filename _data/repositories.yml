@@ -1,0 +1,8 @@
+github_users: [] # add "alikera" here to show a live GitHub stats card
+
+repo_description_lines_max: 2
+
+github_repos:
+  - microsoft/thinkingbox
+  - microsoft/thinkingbox-data
+  - alikera/IEEE-LOM

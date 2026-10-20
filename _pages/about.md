@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Student in Education Data Science, <a href="https://education.uci.edu/">University of California, Irvine</a>
+subtitle: Ph.D. Student in Education, <a href="https://education.uci.edu/">University of California, Irvine</a>
 
 profile:
   align: right
@@ -10,14 +10,14 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>School of Education</p>
-    <p>University of California, Irvine</p>
-    <p>Irvine, CA, USA</p>
+    <p>UC Irvine</p>
+    <p>akerama1 [at] uci.edu</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # set to true after adding news items to the `_news` folder
+  enabled: true # includes a list of news items from the `_news` folder
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -27,28 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello, my name is Ali Keramati, and I am a Ph.D. student in **Education Data Science** at University of California, Irvine. I obtained my bachelor’s degree in Computer Engineering with a minor in Educational Sciences from the University of Tehran in 2024.
+I am a Ph.D. student in Education at the University of California, Irvine, and a graduate student researcher in the [Digital Learning Lab](https://www.digitallearninglab.org/), directed by [Mark Warschauer](https://markwarschauer.com/). I hold an M.A. in Education from UC Irvine and a B.Sc. in Computer Engineering, with a minor in Educational Sciences, from the University of Tehran.
 
-<!-- I previously earned a B.Sc. in Computer Engineering with a minor in Educational Sciences from the University of Tehran. I proudly served as an undergraduate research assistant at several research labs, including the Cognitive Systems Lab, Technology Enhanced Learning Lab (TELAB), UT NLP Group, National Brain Centre, the University of Queensland (remotely), and the Embodied Design Research Lab at UC Berkeley (remotely). -->
+My research combines **natural language processing** and **multi-agent AI** with educational research to study how digital learning systems can support teaching and learning, focusing on **reliable assessment**, **learner simulation**, and the **evaluation of AI agents**. I designed [MADRAG](/publications/#keramati2026madrag), a training-free essay scorer in which Advocate and Skeptic agents debate an essay and a Judge agent calibrates its score against retrieved, rubric-aligned examples. I study whether token-level confidence reveals reasoning quality in multi-agent debate ([ACL 2026 SRW](/publications/#keramati2026confidentliar), [GEM 2026](/publications/#keramati2026earlytoken)) and how well large language models simulate students' programming errors ([EDM 2026](/publications/#keramati2026javaerrors)).
 
-<!-- Through my experiences as a student, teacher, and teaching assistant in academia, I noticed several challenges faced by both students and teachers that technology could address. These experiences shaped my long-term goal: **to utilize technology, particularly Artificial Intelligence (AI), to achieve substantial improvements in learning, teaching, and assessment.** -->
+In summer 2026 I was an applied scientist intern at **Microsoft** Copilot Studio, where I co-developed [ThinkingBox-Bench](/projects/thinkingbox/), a benchmark of 507 business workflows that tests whether tool-using agents succeed reliably across repeated attempts. At UC Irvine I work on [PapyrusAI](/projects/papyrusai/), the lab's AI writing coach, within the IES-funded [WRITE AI Center](https://writeai.center/), and I have served as a teaching and learning assistant in the School of Education.
 
-### Research Interests
-
-<!-- My research explores the intersection of artificial intelligence, cognition, and education. I am deeply interested in the **cognitive evaluation** of large language models (LLMs), focusing on assessing their interpretability, reasoning abilities, learning processes, and educational impact. Additionally, I design **multi-agent** LLM systems to support cognitive and educational tasks, aiming to create adaptive and personalized learning environments. Through this interdisciplinary lens, I aim to develop LLM-driven tools that enhance learning experiences while fostering more effective human-AI collaboration in education. -->
-
-My research bridges artificial intelligence, cognitive science, and education to build collaborative, cognitively informed AI systems that enhance human learning and decision-making. I investigate how large language models (LLMs) reason, learn, and interact, and how these capabilities can be harnessed to support richer **human-AI collaboration**. Drawing on principles of human–computer interaction **(HCI)**, I design interfaces and interaction paradigms that enable more transparent, effective, and human-aligned AI systems, particularly in educational contexts.
-
-My current work focuses on **multi-agent** LLM frameworks for judgment, tutoring, and evaluation. I explore how agents can debate, collaborate, and self-improve leveraging structured information retrieval, adaptive fine-tuning, and feedback-driven refinement. I also integrate **human-in-the-loop alignment** to improve robustness, interpretability, and safety, ensuring that these systems reflect human preferences and values.
-
-I am especially interested in **autonomous** learning agents that can adapt, perform tool calls, and evaluate one another. This line of work advances the **LLM-as-Judge** paradigm and aims to make model assessment fairer and more interpretable. By combining learning analytics, HCI, and computational models of cognition, my goal is to create AI systems that support and amplify human learning while also learning autonomously, collaborating intelligently, and evaluating responsibly.
-
-<!-- My research lies at the intersection of artificial intelligence, cognition, and education, particularly in the development of advanced **machine learning** and **natural language processing** methods to enhance student learning experiences and support more effective teaching practices. Specifically, I investigate the application of large language models **(LLMs)** in combination with optimization techniques such as Retrieval-Augmented Generation **(RAG)**, **fine-tuning**, and Reinforcement Learning from Human Feedback **(RLHF)**.
-
-In addition to my computational interests, I am eager to work as a **digital learning designer**. I aspire to integrate my developed models into real-world classroom settings to test their effectiveness within innovative, digitalized teaching approaches. My background in learning design and research in collaborative learning fuels my passion for computer-supported collaborative learning **(CSCL)**, and I am excited to create and implement models that facilitate productive collaboration among learners. As I continue to learn and grow, I am excited to bridge the gap between technology and education, creating innovative solutions that make learning effective, accessible, and engaging for all.
-
-Additionally, I am interested in exploring philosophical and psychological questions at the intersection of **human cognition** and LLMs, analyzing how human learning, knowledge organization, and memory compare to LLM-driven processes. Ultimately, I aim to design and benchmark **LLM-powered tools**—such as chatbots and automated educational systems—that align closely with human cognitive processes, improving educational outcomes and transforming how people learn and teach. -->
-
-### Other Interests
-
-In addition to my passion for technology, I have a deep love for the arts. From painting and music to movies and theater, I find inspiration in various creative forms. Movies and series captivate me, painting is my outlet for creativity, and music fuels my focus. Last summer, I delved into the world of acting and film direction in a school theater named [Tazeh Theater](https://www.instagram.com/tazeh_theater/?hl=en), enhancing my understanding of cinematic storytelling. As a former and retired soccer player for [Esteghlal F.C. U17](https://www.transfermarkt.com/esteghlal-fc-u17/startseite/verein/88915), I continue my passion for the sport and occasionally join friends on the field.
+Outside research, I love the arts: painting is my creative outlet, music keeps me focused, and I have explored acting and film direction with [Tazeh Theater](https://www.instagram.com/tazeh_theater/?hl=en). I also played soccer for [Esteghlal F.C. U17](https://www.transfermarkt.com/esteghlal-fc-u17/startseite/verein/88915) and still join friends on the field whenever I can.

@@ -1,0 +1,49 @@
+/*******************************************************************************
+ * Site-specific overrides for alikera.github.io
+ * (al-folio v1.2 starter, al_folio_core 1.0.15)
+ *
+ * Loaded LAST from the local copy of assets/css/main.scss, so every declaration
+ * here lands after the gem's _themes.scss / _components.scss in main.css and
+ * wins at equal specificity. Only the tokens and rules that differ from the gem
+ * are declared; everything else stays gem-owned.
+ *
+ * Token names verified against al_folio_core-1.0.15/_sass/_themes.scss
+ * (:root lines 7-31, html[data-theme="dark"] lines 77-100).
+ ******************************************************************************/
+
+// --- Accent colour: UC Irvine blue (brand primary, PMS 2150) -----------------
+// 6.25:1 against white (WCAG AA for normal text; the gem default #b509ac is 5.83:1).
+:root {
+  --global-theme-color: #0064a4;
+  --global-hover-color: #0064a4;
+  // gem default is rgba($purple-color, .05); keep the same 5-6% tint but in the new hue
+  --global-code-bg-color: rgba(0, 100, 164, 0.06);
+}
+
+// --- Dark mode: a lighter tint of the same hue (203 deg) ---------------------
+// 7.6:1 on the dark page background #1c1c1d, 6.9:1 for the dark badge text
+// (#212529) that the gem puts on top of the accent in dark mode.
+html[data-theme="dark"] {
+  --global-theme-color: #5eb6ed;
+  --global-hover-color: #5eb6ed;
+}
+
+// --- Project cards -----------------------------------------------------------
+// The gem renders the card title as <h2 class="card-title"> at 2rem
+// (tailwind.css @layer components .card-title). Research project titles are
+// 3-6 words long and wrap to three lines in a 270px card; 1.3rem/500 reads as
+// a title without dominating the thumbnail. Unlayered CSS beats @layer rules,
+// so no !important is needed. Selectors: .projects > .card > .card-title
+// (al_folio_core _includes/projects.liquid lines 3-15).
+.projects .card .card-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 0.5rem;
+}
+
+// tailwind.css hard-codes .card-text { color: #747373 }, which is only 3.3:1 on
+// the dark-mode card background. Use the theme's own light text token instead.
+.projects .card .card-text {
+  color: var(--global-text-color-light);
+}

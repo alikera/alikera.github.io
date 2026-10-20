@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Local copy of al_folio_core-1.0.15/assets/css/main.scss.
+   It is identical to the gem file except for the final `@use "custom";`, which
+   pulls in _sass/_custom.scss (site-specific tokens/rules) AFTER every gem
+   partial. Jekyll's ThemeAssetsReader skips a theme asset when the site has a
+   file at the same path, so this file replaces the gem's main.scss; the other
+   partials still resolve from the gem's _sass directory because the theme's
+   sass_path is the last Sass load path (jekyll-sass-converter 3.1.0,
+   lib/jekyll/converters/scss.rb lines 123-142).
+
+   When the gem is upgraded, diff this file against the new gem copy
+   (`bundle exec al-folio upgrade overrides diff assets/css/main.scss`) and
+   re-apply the one extra line. */
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// Site overrides — must stay last so they cascade over the gem partials.
+@use "custom";

@@ -7,12 +7,16 @@ My personal website, built with the [al-folio](https://github.com/alshedivat/al-
 | What | File |
 |---|---|
 | Bio, photo and address on the home page | `_pages/about.md`, `assets/img/prof_pic.jpg` |
-| Publications (selected ones also show on the home page) | `_bibliography/papers.bib` — add `selected = {true}` to feature a paper |
-| Education, CV and transcript pages | `_pages/education.md`, `_pages/cv.md`, `_pages/transcript.md` |
-| PDFs (CV, transcripts, degrees) | `files/` |
-| Email, Google Scholar, GitHub, LinkedIn icons | `_data/socials.yml` |
-| Site title, description, theme options | `_config.yml` |
-| News items on the home page | add files to `_news/` and set `announcements.enabled: true` in `_pages/about.md` |
+| News on the home page (newest five) and the full list at `/news/` | one file per item in `_news/` |
+| Publications (add `selected = {true}` to feature a paper on the home page) | `_bibliography/papers.bib`, thumbnails in `assets/img/publication_preview/` |
+| Project cards and pages | `_projects/*.md`, images in `assets/img/projects/` |
+| CV page | `_data/cv.yml` (RenderCV format); the PDF icon downloads `files/cv-alikeramati.pdf` |
+| Teaching, education and transcripts | `_pages/teaching.md`, `_pages/education.md`, PDFs in `files/` |
+| Email, Google Scholar, ORCID, GitHub, LinkedIn icons | `_data/socials.yml` |
+| Co-author homepages and venue links in the publication list | `_data/coauthors.yml`, `_data/venues.yml` |
+| Repositories page | `_data/repositories.yml` |
+| Site title, description and theme options | `_config.yml` |
+| Accent colour (UC Irvine blue) | `_sass/_custom.scss`, loaded by `assets/css/main.scss` |
 
 ## Publishing
 

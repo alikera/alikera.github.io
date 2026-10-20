@@ -1,6 +1,53 @@
-# Co-author names in your publications become links to these pages.
-# Keys are last names, lower-cased and without accents. For example:
-#
-# "warschauer":
-#   - firstname: ["Mark", "M."]
-#     url: https://example.com
+# Co-author names in the publication list link to these pages.
+# Keys are last names, lower-cased and without accents; `firstname` must match the first name in papers.bib.
+"borchers":
+  - firstname: ["Conrad", "C."]
+    url: https://cborchers.com/
+"cao":
+  - firstname: ["Jie", "J."]
+    url: https://sites.google.com/view/jiecao/home
+"fallah":
+  - firstname: ["Avisa", "A."]
+    url: https://avisafallah.github.io/
+"gillies":
+  - firstname: ["Robyn M.", "Robyn", "R. M."]
+    url: https://about.uq.edu.au/experts/267
+"horne":
+  - firstname: ["Jacob", "J."]
+    url: https://jacobhorne.dev/
+"keramati":
+  - firstname: ["Mohammad Reza", "M. R."]
+    url: https://profile.ut.ac.ir/en/~mkeramaty
+"li":
+  - firstname: ["Zhuochun", "Z."]
+    url: https://zhuochunli.github.io/
+"mehrotra":
+  - firstname: ["Sharad", "S."]
+    url: https://ics.uci.edu/people/sharad-mehrotra/
+"mirfazeli":
+  - firstname: ["Fatemeh Sadat", "F. S."]
+    url: https://nbic.iums.ac.ir/chief
+"mohammadi":
+  - firstname: ["Iman", "I."]
+    url: https://imanm02.github.io/
+"nili ahmadabadi":
+  - firstname: ["Majid", "M."]
+    url: https://profile.ut.ac.ir/en/~mnili
+"pal":
+  - firstname: ["Sonika", "S."]
+    url: https://sites.google.com/view/sonika-pal/home
+"shi":
+  - firstname: ["Yang", "Y."]
+    url: https://sites.google.com/site/yshicv/
+"simon":
+  - firstname: ["Sebastian", "S."]
+    url: https://lium.univ-lemans.fr/en/team/sebastian-simon/
+"smolyakov":
+  - firstname: ["Vadim", "V."]
+    url: https://vsmolyakov.github.io/
+"taghiyareh":
+  - firstname: ["Fattaneh", "F."]
+    url: https://profile.ut.ac.ir/en/~ftaghiyar
+"warschauer":
+  - firstname: ["Mark", "M."]
+    url: https://markwarschauer.com/

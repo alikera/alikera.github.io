@@ -1,0 +1,253 @@
+# CV data for the cv page (RenderCV format, rendered by the al_folio_cv plugin).
+# Source: Ali's research CV (October 2026). Contact details stay at city level.
+# The full publication list lives in _bibliography/papers.bib; only selected papers are repeated here.
+cv:
+  name: "Ali Keramati"
+  label: "Ph.D. Student in Education, University of California, Irvine"
+  email: "akerama1@uci.edu"
+  location: "Irvine, CA"
+  image: ""
+  summary: "Ph.D. student in Education at the University of California, Irvine (Digital Learning Lab), with an M.A. in Education from UC Irvine (2026) and a B.Sc. in Computer Engineering from the University of Tehran. I combine natural language processing and multi-agent AI with qualitative and quantitative educational research to study how digital learning systems can support teaching and learning. My research spans reliable assessment, learner simulation, and the evaluation of AI agents. Experience includes PapyrusAI and the IES-funded WRITE AI Center at UC Irvine and an applied-scientist internship at Microsoft. First or co-first author of 7 peer-reviewed publications; Program Committee member, EDM 2026."
+
+  social_networks:
+    - network: "Google Scholar"
+      username: "4x0JWtIAAAAJ"
+    - network: "ORCID"
+      username: "0000-0002-4763-7418"
+    - network: "GitHub"
+      username: "alikera"
+    - network: "LinkedIn"
+      username: "ali-keramati"
+
+  address:
+    city: "Irvine"
+    region: "California"
+    countryCode: "US"
+
+  sections:
+    Experience:
+      - company: "Digital Learning Lab, University of California, Irvine"
+        position: "Graduate Student Researcher"
+        location: "Irvine, CA"
+        start_date: "2025-01"
+        summary: "Director: Prof. Mark Warschauer"
+        highlights:
+          - "Develop and evaluate multi-agent LLM methods for rubric-based essay scoring and feedback, including comparisons with human ratings and analysis of model reasoning; first author of the ACL 2026 Student Research Workshop, NLP4DH 2026, GEM 2026, CSCL 2026, and ICLR 2026 workshop papers; co-first author of the EDM 2026 paper."
+          - "Work on PapyrusAI, the lab's AI writing coach, including within the IES-funded WRITE AI Center: teacher-reviewed multi-agent essay scoring and feedback, and evaluation of AI models and prompts."
+          - "Ongoing: methods to localize uncertainty in LLM agents' generated SQL and Python and to decide when an agent should stop, resample, or ask for clarification."
+
+      - company: "Microsoft"
+        position: "Applied Scientist Intern"
+        location: "Redmond, WA"
+        start_date: "2026-06"
+        end_date: "2026-09"
+        summary: "Microsoft Copilot Studio"
+        highlights:
+          - "Built evaluation and training pipelines for multi-turn, task-oriented AI agents: LLM-as-judge evaluators, simulated users, and sandbox-derived rewards for reinforcement-learning post-training."
+          - "Contributed to ThinkingBox and co-developed ThinkingBox-Bench, an open-source agent sandbox and reliability benchmark, building its user simulator and the LLM judges that evaluate agent behavior; co-first author of the accompanying arXiv preprint."
+
+      - company: "School of Education, University of California, Irvine"
+        position: "Teaching Assistant and Learning Assistant"
+        location: "Irvine, CA"
+        start_date: "2025"
+        highlights:
+          - "EDUC 217 AI and Digital Learning (graduate course), Fall 2026: Learning Assistant (instructor Prof. Mark Warschauer)."
+          - "EDUC 30 21st Century Literacies, Spring 2026: Teaching Assistant (instructor Dr. Viet Vu)."
+          - "EDUC 173 Cognition and Learning in Educational Settings: Teaching Assistant, Fall 2025 (instructor Prof. Shayan Doroudi) and Winter 2026 (instructor Prof. Drew Bailey)."
+
+      - position: "Research collaboration (remote)"
+        start_date: "2021-09"
+        summary: "With Prof. Robyn M. Gillies (University of Queensland) and Prof. Mohammad Reza Keramati"
+
+      - company: "University of Tehran"
+        position: "Research Assistant, School of Electrical and Computer Engineering"
+        location: "Tehran, Iran"
+        start_date: "2023-03"
+        end_date: "2024-12"
+        highlights:
+          - "Cognitive Systems Lab (Prof. Majid Nili Ahmadabadi), May 2023 – Dec 2024: contributed to an AI-powered framework for personalized learning at scale, including a chatbot for open learner modeling (arXiv preprint, 2024)."
+          - "In collaboration with the National Brain Center (Prof. Fatemeh Sadat Mirfazeli), Jul – Sep 2024: co-developed a LLaMA-3 chatbot that administers the Faux Pas Recognition Test of theory of mind for individuals with autism, with rehabilitative guidance and automated evaluation under human oversight (ICCKE 2024)."
+          - "Technology Enhanced Learning Lab (Prof. Fattaneh Taghiyareh), Mar – Aug 2023: built an IEEE LOM metadata extractor for slides, documents and PDFs, and contributed to iTAG (CSICC 2025)."
+          - "Natural Language Processing group (Profs. M. J. Dousti and H. Faili), Feb – Dec 2024: research on large language models, retrieval-augmented generation, and parameter-efficient fine-tuning."
+
+      - company: "School of Electrical and Computer Engineering, University of Tehran"
+        position: "Teaching Assistant"
+        location: "Tehran, Iran"
+        start_date: "2020"
+        end_date: "2024"
+        highlights:
+          - "Head TA: Discrete Mathematics, Internet Engineering, and Software Engineering. Supervising TA: Data Structures and Algorithms."
+          - "TA: Reinforcement Learning, Engineering Probability and Statistics, Algorithm Design, Database Design, and Electric Circuits."
+
+    Education:
+      - institution: "University of California, Irvine"
+        location: "Irvine, CA"
+        area: "School of Education"
+        studyType: "Ph.D. in Education"
+        start_date: "2025-01"
+        highlights:
+          - "Expected completion: Jun 2029."
+          - "Specialization: Teaching, Learning, and Educational Improvement (TLEI). Research focus: educational data science and AI in education. GPA: 3.98/4.00."
+          - "Coursework: Neural Networks and Deep Learning; Deep Generative Models; Brain-Inspired Learning Systems; Neural Architecture of Language; Language Models in Cognitive Science; Learning Analytics Fundamentals; Learning Analytics Practicum; Applied Regression Analysis; Research Epistemologies and Methodologies; Qualitative Research Methods in Education I and II; Early Childhood Education Policy."
+          - "[Unofficial transcript](/files/PhD-Transcripts-Unofficial.pdf)"
+
+      - institution: "University of California, Irvine"
+        location: "Irvine, CA"
+        studyType: "M.A. in Education"
+        date: "2026-06"
+
+      - institution: "University of Tehran"
+        location: "Tehran, Iran"
+        area: "School of Electrical and Computer Engineering"
+        studyType: "B.Sc. in Computer Engineering"
+        start_date: "2019-09"
+        end_date: "2024-07"
+        highlights:
+          - "GPA: 18.51/20. Minor in Educational Sciences, Faculty of Psychology and Education (completed Jul 2023; GPA: 19.31/20)."
+          - "Transcripts: [Computer Engineering (English)](/files/CE-Transcript-English.pdf) · [Educational Sciences minor (English)](/files/Ed-Transcript-English.pdf) · more on the [education](/education/) page"
+
+    Selected Research Contributions:
+      - bullet: "**Reliable automated assessment and feedback.** Automated essay scoring usually depends on task-specific training and gives little explanation for its scores. As first author, I designed and evaluated MADRAG (NLP4DH 2026): an Advocate and a Skeptic agent debate an essay's strengths and weaknesses, and a Judge agent calibrates its score against retrieved, rubric-aligned scored examples, without fine-tuning. MADRAG outperforms prompt-based baselines and approaches supervised systems. Related first-authored work adds teacher-in-the-loop feedback (CSCL 2026) and shows that LoRA fine-tuning of an 8-billion-parameter model, ordered by essay structure, outperforms a general LLaMA-70B baseline on conclusion scoring (arXiv preprint)."
+      - bullet: "**Measuring reasoning quality in multi-agent LLM systems.** Multi-agent LLM systems are usually judged only by their final answers. As first author, I designed the debate frameworks and confidence analyses in the ACL 2026 Student Research Workshop and GEM 2026 papers. In rubric-based essay scoring, token-level confidence detected the critical reasoning failures flagged by an LLM judge with an AUROC of 0.804 for the constructing agent versus 0.634 for the auditing agent (ACL 2026 SRW); on two ASAP essay sets, confidence over the first few generated tokens was the strongest predictor of LLM-judged reasoning quality, outperforming full-sequence statistics (GEM 2026)."
+      - bullet: "**Reliability benchmarks for tool-using AI agents.** Agent benchmarks often credit a single successful run. At Microsoft, I contributed to ThinkingBox, a sandbox that grades agents by executable checks on the final system state, and co-developed ThinkingBox-Bench, 507 policy-conditioned business workflows, building the user simulator and the LLM judges that evaluate agents; co-first author of the paper (arXiv preprint). Across 20 repeated attempts per task, the top-scoring model's success fell from 66.5% on a single attempt to 47.5% when it had to succeed on all 20."
+      - bullet: "**Simulated learners.** Collecting representative student errors for a new programming task normally takes extensive classroom deployment. As co-first author, I designed the Self-Refine student simulator and the syntax-tree and tree-edit-distance evaluation in the EDM 2026 paper, comparing five LLMs and three prompting strategies against 74,080 authentic Java submissions. In blinded expert annotation, 164 of 196 erroneous submissions generated by the selected model (Claude Sonnet 4 with Self-Refine) were judged human-written (83.7%), although the synthetic and authentic error distributions differed in shape."
+
+    Projects:
+      - name: "ThinkingBox and ThinkingBox-Bench"
+        date: "2026"
+        url: "https://github.com/microsoft/thinkingbox"
+        summary: "Microsoft, open source · contributor to the sandbox; co-developer of the benchmark (user simulator, LLM-judge evaluators); co-first author of the accompanying arXiv preprint"
+        highlights:
+          - "Agent sandbox with isolated Model Context Protocol (MCP) tool sessions and complete execution traces; benchmark of 507 policy-conditioned workflows in five business domains (v1.0, August 2026)."
+          - "[github.com/microsoft/thinkingbox](https://github.com/microsoft/thinkingbox) · [github.com/microsoft/thinkingbox-data](https://github.com/microsoft/thinkingbox-data)"
+
+      - name: "PapyrusAI"
+        start_date: "2025"
+        url: "https://www.genaied.org/papyrusai.html"
+        summary: "Digital Learning Lab, UC Irvine · graduate student researcher"
+        highlights:
+          - "AI writing coach that uses guided dialogue and personalized feedback to help students develop ideas, organize arguments, and revise their writing. Instructors can customize learning activities and monitor student engagement to support writing instruction and AI literacy."
+          - "[PapyrusAI project page](https://www.genaied.org/papyrusai.html) · [public frontend repository](https://github.com/UCI-DLL/PapyrusAI)"
+
+    Publications:
+      - title: "The Confident Liar: Diagnosing Multi-Agent Debate with Log-Probabilities and LLM-as-Judge"
+        authors:
+          - "Ali Keramati"
+          - "Justin Cheok"
+          - "Jacob Horne"
+          - "Mark Warschauer"
+        publisher: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"
+        releaseDate: "2026-07"
+        url: "https://doi.org/10.18653/v1/2026.acl-srw.121"
+        summary: "**Ali Keramati**, Justin Cheok, Jacob Horne, Mark Warschauer"
+
+      - title: "MADRAG: Multi-Agent Debate with Retrieval-Augmented Generation for Training-Free Analytic Essay Scoring"
+        authors:
+          - "Ali Keramati"
+          - "Shiyuan Zhou"
+          - "Sharad Mehrotra"
+          - "Mark Warschauer"
+        publisher: "Proceedings of the 6th International Conference on Natural Language Processing for the Digital Humanities (NLP4DH 2026), co-located with ACL 2026"
+        releaseDate: "2026-07"
+        url: "https://doi.org/10.18653/v1/2026.nlp4dh-1.30"
+        summary: "**Ali Keramati**, Shiyuan Zhou, Sharad Mehrotra, Mark Warschauer"
+
+      - title: "Early-Token Confidence Predicts Reasoning Quality in Multi-Agent LLM Debate"
+        authors:
+          - "Ali Keramati"
+          - "Justin Cheok"
+          - "Jacob Horne"
+          - "Mark Warschauer"
+        publisher: "Proceedings of the Fifth Workshop on Generation, Evaluation and Metrics (GEM), co-located with ACL 2026"
+        releaseDate: "2026-07"
+        url: "https://doi.org/10.18653/v1/2026.gem-main.60"
+        summary: "**Ali Keramati**, Justin Cheok, Jacob Horne, Mark Warschauer"
+
+      - title: "Simulating Students' Java Programming Errors with Large Language Models"
+        authors:
+          - "Ali Keramati"
+          - "Jie Cao"
+          - "Iman Mohammadi"
+          - "Mark Warschauer"
+          - "Yang Shi"
+        publisher: "Proceedings of the 19th International Conference on Educational Data Mining (EDM 2026)"
+        releaseDate: "2026-06"
+        url: "https://doi.org/10.5281/zenodo.21040050"
+        summary: "**Ali Keramati**†, Jie Cao†, Iman Mohammadi, Mark Warschauer, Yang Shi (†equal contribution)"
+
+      - title: "A Teacher-in-the-Loop Multi-Agent Framework for Transparent Essay Scoring and Feedback"
+        authors:
+          - "Ali Keramati"
+          - "Mark Warschauer"
+        publisher: "Proceedings of the 19th International Conference on Computer-Supported Collaborative Learning (CSCL 2026)"
+        releaseDate: "2026"
+        url: "https://doi.org/10.22318/cscl2026.913900"
+        summary: "**Ali Keramati**, Mark Warschauer"
+
+      - title: "The First Tokens Matter: Early Confidence Signals for Evaluating LLM Reasoning"
+        authors:
+          - "Ali Keramati"
+          - "Justin Cheok"
+          - "Jacob Horne"
+          - "Mark Warschauer"
+        publisher: "ICLR 2026 Workshop on Logical Reasoning of Large Language Models"
+        releaseDate: "2026-04"
+        url: "https://openreview.net/forum?id=0FOOrwSQ9E"
+        summary: "**Ali Keramati**, Justin Cheok, Jacob Horne, Mark Warschauer"
+
+      - title: "Students' Reflection on the Effect of Collaborative Learning on the Learning Environment and Academic Achievement in Online Reflective Platforms"
+        authors:
+          - "Ali Keramati"
+          - "Mohammad Reza Keramati"
+          - "Mohammad Hossein Arefian"
+        publisher: "Reflective Practice, 25(2), 117–131"
+        releaseDate: "2024"
+        url: "https://doi.org/10.1080/14623943.2024.2305868"
+        summary: "**Ali Keramati**, Mohammad Reza Keramati, Mohammad Hossein Arefian"
+
+    Presentations:
+      - bullet: "**AI-Human Writing Score Agreement in Primary Grades: A Longitudinal Investigation.** Young-Suk G. Kim, Tamara P. Tate, **Ali Keramati**, Julie Jung, Max Lu, Justin Cheok. Paper session, NCME Artificial Intelligence in Measurement and Education Conference (AIME-Con 2026), Pittsburgh, PA, October 2026."
+      - bullet: "**Application of Multi-Agent Systems for Essay Scoring.** **Ali Keramati**, Mark Warschauer. Contributed talk (one of 11 in the Education Track), NeurIPS 2025 Education Program, San Diego, CA, December 2025. [Recording](https://slideslive.com/39055005/)"
+
+    Peer Review:
+      - label: "2026"
+        details: "Program Committee Member, 19th International Conference on Educational Data Mining (EDM 2026)"
+      - label: "2026"
+        details: "Reviewer, Journal of Educational Data Mining"
+      - label: "2026"
+        details: "Reviewer, Fifth Workshop on Generation, Evaluation and Metrics (GEM 2026), co-located with ACL 2026"
+      - label: "2026"
+        details: "Reviewer, International Society of the Learning Sciences (ISLS) 2026 Annual Meeting (ICLS and CSCL)"
+      - label: "2025"
+        details: "Reviewer, NeurIPS 2025 Education Program"
+
+    Service and Leadership:
+      - label: "2026"
+        details: "Student Volunteer, ACL 2026, San Diego, CA"
+      - label: "2025–2026"
+        details: "Graduate Ambassador, The People's Coalition at UCI (TPC), School of Education"
+      - label: "2020"
+        details: "President, University of Tehran ACM Student Chapter"
+
+    Honors and Awards:
+      - title: "ACL 2026 Diversity and Inclusion Subsidy"
+        date: "2026"
+        awarder: "Association for Computational Linguistics"
+      - title: "Selected participant, LearnLab Summer School"
+        date: "2025"
+        awarder: "Carnegie Mellon University"
+        summary: "Computer Science Education Research track; program fee covered by the NSF-funded SPLICE program."
+
+    Skills:
+      - name: "AI methods"
+        keywords: "LLM evaluation (LLM-as-judge; confidence and log-probability analysis), multi-agent systems and debate, retrieval-augmented generation, parameter-efficient fine-tuning (LoRA) with 4-bit quantization, reinforcement learning"
+      - name: "Research methods"
+        keywords: "Learner and user simulation, learning analytics, regression, qualitative coding, topic modeling"
+      - name: "Programming"
+        keywords: "Python, SQL, Java, C/C++, JavaScript, R"
+      - name: "ML and LLM tools"
+        keywords: "PyTorch, Hugging Face Transformers, PEFT, TRL, vLLM, LangChain, LangGraph, Model Context Protocol (MCP)"
+      - name: "Data and retrieval"
+        keywords: "pandas, scikit-learn, FAISS, Elasticsearch, PostgreSQL, Neo4j"
+      - name: "Education research tools"
+        keywords: "LearnSphere, pyBKT, ATLAS.ti, Dedoose"

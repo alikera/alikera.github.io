@@ -1,14 +1,12 @@
 ---
-layout: page
+layout: cv
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-description: My latest CV.
+cv_pdf: /files/cv-alikeramati.pdf # the PDF icon next to the title downloads this file
+cv_format: rendercv # content comes from _data/cv.yml
+description: Education, research experience, teaching, service and awards. The PDF icon downloads my CV; transcripts are on the education page.
+toc:
+  sidebar: left
 ---
-
-[Download the PDF](/files/cv-alikeramati.pdf)
-
-<object data="/files/cv-alikeramati.pdf" type="application/pdf" width="100%" height="1100">
-  <p>Your browser can't show the PDF here. <a href="/files/cv-alikeramati.pdf">Download my latest CV</a> instead.</p>
-</object>
