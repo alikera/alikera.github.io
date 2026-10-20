@@ -1,13 +1,14 @@
 ---
-layout: archive
-title: "CV"
+layout: page
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: cv
+nav: true
+nav_order: 3
+description: My latest CV.
 ---
-{% include base_path %}
 
-## Download
+[Download the PDF](/files/cv-alikeramati.pdf)
 
-To Download my latest CV, click [here](/files/cv-alikeramati.pdf)
+<object data="/files/cv-alikeramati.pdf" type="application/pdf" width="100%" height="1100">
+  <p>Your browser can't show the PDF here. <a href="/files/cv-alikeramati.pdf">Download my latest CV</a> instead.</p>
+</object>

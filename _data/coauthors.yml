@@ -1,0 +1,6 @@
+# Co-author names in your publications become links to these pages.
+# Keys are last names, lower-cased and without accents. For example:
+#
+# "warschauer":
+#   - firstname: ["Mark", "M."]
+#     url: https://example.com

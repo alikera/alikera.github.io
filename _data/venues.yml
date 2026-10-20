@@ -1,0 +1,5 @@
+# Optional link and color for each publication badge, keyed by the `abbr` field in papers.bib. For example:
+#
+# "LAK":
+#   url: https://www.solaresearch.org/events/lak/
+#   color: "#00369f"
