@@ -8,9 +8,8 @@ nav: false # reached through the "more" menu
 
 <div class="row mb-4">
   <div class="col-sm-8">
-    <h3 style="font-size:1.35rem; margin-bottom:.25rem">Ph.D. in Education</h3>
-    <div><a href="https://education.uci.edu/">School of Education</a>, University of California, Irvine · 2025 – present</div>
-    <div style="font-size:.9rem; color: var(--global-text-color-light)">Specialization: Teaching, Learning, and Educational Improvement · research focus: educational data science and AI in education</div>
+    <h3 style="font-size:1.35rem; margin-bottom:.25rem">Ph.D. in Education Data Science</h3>
+    <div>University of California, Irvine · 2025 – present</div>
   </div>
   <div class="col-sm-4">
     <a class="btn btn-sm btn-outline-primary z-depth-0" href="/files/PhD-Transcripts-Unofficial.pdf">Transcript (unofficial)</a>
@@ -20,7 +19,7 @@ nav: false # reached through the "more" menu
 <div class="row mb-4">
   <div class="col-sm-8">
     <h3 style="font-size:1.35rem; margin-bottom:.25rem">M.A. in Education</h3>
-    <div>School of Education, University of California, Irvine · 2026</div>
+    <div>University of California, Irvine · 2026</div>
   </div>
 </div>
 

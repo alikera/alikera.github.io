@@ -3,11 +3,11 @@
 # The full publication list lives in _bibliography/papers.bib; only selected papers are repeated here.
 cv:
   name: "Ali Keramati"
-  label: "Ph.D. Student in Education, University of California, Irvine"
+  label: "Ph.D. Candidate in Education Data Science, University of California, Irvine"
   email: "akerama1@uci.edu"
   location: "Irvine, CA"
   image: ""
-  summary: "Ph.D. student in Education at the University of California, Irvine (Digital Learning Lab), with an M.A. in Education from UC Irvine (2026) and a B.Sc. in Computer Engineering from the University of Tehran. I combine natural language processing and multi-agent AI with qualitative and quantitative educational research to study how digital learning systems can support teaching and learning. My research spans reliable assessment, learner simulation, and the evaluation of AI agents. Experience includes PapyrusAI and the IES-funded WRITE AI Center at UC Irvine and an applied-scientist internship at Microsoft. First or co-first author of 7 peer-reviewed publications; Program Committee member, EDM 2026."
+  summary: "Ph.D. candidate in Education Data Science at the University of California, Irvine (Digital Learning Lab), with an M.A. in Education from UC Irvine (2026) and a B.Sc. in Computer Engineering from the University of Tehran. I combine natural language processing and multi-agent AI with qualitative and quantitative educational research to study how digital learning systems can support teaching and learning. My research spans reliable assessment, learner simulation, and the evaluation of AI agents. Experience includes PapyrusAI and the IES-funded WRITE AI Center at UC Irvine and an applied-scientist internship at Microsoft. First or co-first author of 7 peer-reviewed publications; Program Committee member, EDM 2026."
 
   social_networks:
     - network: "Google Scholar"
@@ -46,7 +46,7 @@ cv:
           - "Built evaluation and training pipelines for multi-turn, task-oriented AI agents: LLM-as-judge evaluators, simulated users, and sandbox-derived rewards for reinforcement-learning post-training."
           - "Contributed to ThinkingBox and co-developed ThinkingBox-Bench, an open-source agent sandbox and reliability benchmark, building its user simulator and the LLM judges that evaluate agent behavior; co-first author of the accompanying arXiv preprint."
 
-      - company: "School of Education, University of California, Irvine"
+      - company: "University of California, Irvine"
         position: "Teaching Assistant and Learning Assistant"
         location: "Irvine, CA"
         start_date: "2025"
@@ -82,12 +82,11 @@ cv:
     Education:
       - institution: "University of California, Irvine"
         location: "Irvine, CA"
-        area: "School of Education"
-        studyType: "Ph.D. in Education"
+        studyType: "Ph.D. in Education Data Science"
         start_date: "2025-01"
         highlights:
           - "Expected completion: Jun 2029."
-          - "Specialization: Teaching, Learning, and Educational Improvement (TLEI). Research focus: educational data science and AI in education. GPA: 3.98/4.00."
+          - "GPA: 3.98/4.00."
           - "Coursework: Neural Networks and Deep Learning; Deep Generative Models; Brain-Inspired Learning Systems; Neural Architecture of Language; Language Models in Cognitive Science; Learning Analytics Fundamentals; Learning Analytics Practicum; Applied Regression Analysis; Research Epistemologies and Methodologies; Qualitative Research Methods in Education I and II; Early Childhood Education Policy."
           - "[Unofficial transcript](/files/PhD-Transcripts-Unofficial.pdf)"
 
@@ -225,7 +224,7 @@ cv:
       - label: "2026"
         details: "Student Volunteer, ACL 2026, San Diego, CA"
       - label: "2025–2026"
-        details: "Graduate Ambassador, The People's Coalition at UCI (TPC), School of Education"
+        details: "Graduate Ambassador, The People's Coalition at UCI (TPC)"
       - label: "2020"
         details: "President, University of Tehran ACM Student Chapter"
 
